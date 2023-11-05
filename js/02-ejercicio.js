@@ -1,5 +1,5 @@
 const numero = parseInt(prompt("Introduce un número del 0 al 10:"));
-if (!isNaN(numero) && numero >= 0 && numero <= 10) {
+if (numero >= 0 && numero <= 10) {
   if (numero >= 0 && numero <= 2) {
     alert("La calificacion es muy deficiente");
   } else if (numero >= 3 && numero <= 4) {
